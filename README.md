@@ -12,13 +12,18 @@ Fizzlet is a web application designed for creating, organizing, and taking quizz
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/fizzlet.git
+
 Set up XAMPP and start Apache and MySQL servers.
+
 Import the database schema into MySQL:
+
 sh
-Copy code
 mysql -u root -p fizzlet < fizzlet.sql
+
 Update the config.php file with your database credentials.
+
 Place the project folder in the htdocs directory of XAMPP.
+
 Database
 Fizzlet uses MariaDB, which is included with XAMPP, for storing user data, flashcards, and quiz results.
 
